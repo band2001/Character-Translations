@@ -1,4 +1,17 @@
-Ben Anderson - Extra Features 
+Use either trans.s or extra.s to run the full program. 
+
+trans.s instructions:
+
+When the program runs, you will be permitted to enter two single characters, separated by a space in the command line. The first character is the character you would like to substitute, the second is a character that you would like to replace the first character with. Once you hit enter, you will be allowed to enter a line of text (no longer than 100 chars). When you hit enter, all the characters you would like changed will be changed and printed back to you. You can keep entering lines for as long as you would like. To stop running the program, when you have the opportunity to type a newline, press CTRL+D. After pressing that, a summary will appear with the total number of chars, lines, and words entered over the course of the program. 
+
+- Sample Cases:
+- {user input} s S
+- {user input} Red fish, blue fish
+-     {output} Red FiSh, blue fiSh
+- {user input}        One fish, two fish
+-     {output}        One fiSh, two fiSh
+
+extra.s instructions: 
 
 1. Instead of substituting a single character, you now  substitute ranges of characters as long as the range between the substitution and translation is the same. For the program to work, you need to enter the range to substitute and the range to replace with as follows:
         a-z A-Z
