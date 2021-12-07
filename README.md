@@ -1,4 +1,4 @@
-Use either trans.s or extra.s to run the full program. 
+Use either trans.s or extra.s to run the full program. WHEN YOU COMPILE MAKE SURE YOU COMPILE WITH hdlib.o
 
 trans.s instructions:
 
